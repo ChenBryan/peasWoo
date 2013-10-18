@@ -1,0 +1,33 @@
+一:woo设计MVC 
+
+二：目录
+woo
++frame
++app
+ -controller
+ -model
+ -view
++public
++node_module
+app.js
+config.js
+
+三：规范
+代码规范
+变量命名：私有变量统一使用”_name”，
+全局变量:使用大写”VIEW”，
+简单变量:使用骆驼峰”myName”
+方法命名：所有方法请使用骆驼峰”getUrlRequest”
+类命名：统一使用首字母大写骆驼峰”BaseController”
+文件命名：统一使用下划线分割，类使用下划线分割base_controller.js
+
+
+四：注意 可以使用woo做全局 woo追求得意思
+输出MVC那些可以使用继承
+1：全局变量与路径的配置
+   生产环境 与 开发环境 独立
+   数据配置等
+
+2：模块得全局引入
+3：模块统一使用json 对象方式
+ 

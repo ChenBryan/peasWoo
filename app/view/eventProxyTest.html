@@ -1,0 +1,18 @@
+<html>
+<head>
+<title><%= title%></title>
+</head>
+<body bgcolor="white" text="black">
+<center>
+<h1><%= title%></h1> 
+<div><%=v1.a%></div>
+<div><%=v2.b%></div>
+<div><%=v3.c%></div>
+
+<%for (var i in records) {%>
+   <div>id : <%=records[i].id%> name : <%=records[i].name%></div>
+<%}%>
+
+</center>
+</body>
+</html>
