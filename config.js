@@ -6,7 +6,7 @@
  * @version : v1.0
  * @description : 配置文件
  */
-
+    
 var config = function(req){
         var hostname = req.headers.host,
 	    config;
