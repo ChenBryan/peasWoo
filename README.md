@@ -1,4 +1,4 @@
 peasWoo
 =======
 
-一个nodejs的小型框架
+一个nodejs的 MVC 小型框架
